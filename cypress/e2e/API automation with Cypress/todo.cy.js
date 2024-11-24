@@ -20,7 +20,7 @@ describe('Test Restful-booker APIs', () => {
         }).then((response) => {
             expect(response.status).to.eql(200);
             expect(response.body).to.have.property('token')
-            let token = response.body.token;
+            token = response.body.token;
         })
     })
 
